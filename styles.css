@@ -1,0 +1,39 @@
+.script{
+    display: block;
+    margin: auto;
+    width: 700px;
+    height: 500px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    animation: fadeIn 1s;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+.box-title{
+    margin-top: 100px;
+    display: block;
+    height: 200px;
+}
+.zoom-title {
+    margin: auto;
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    
+    animation: zoom-title 1s ease infinite;
+  }
+  
+  @keyframes zoom-title {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.2, 1.2);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
